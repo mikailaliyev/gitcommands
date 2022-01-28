@@ -3,9 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 html {
     scroll-behavior: smooth
 }
+
 body {    
     background: #264653;
     height: 100vh;
@@ -14,7 +16,7 @@ body {
 }
 
 
-
+/*NAVBAR*/
 .floating-nav {
     position: fixed;
     display: block;
@@ -27,6 +29,7 @@ body {
     top: 0;
 }
 
+/*MAIN*/
 main{    
     width: 80%;
     margin: 10% auto 5% auto;
@@ -49,6 +52,7 @@ p {
     text-align: justify;
 }
 
+/*FOOTER*/
 footer {
     display: block;
     width: 100%;
